@@ -5,8 +5,7 @@ across dwillis, NewsAppsUMD, openelections, and Sports-Roster-Data.
 
 Required env vars:
   GITHUB_TOKEN  - a classic PAT with repo + read:org scopes
-  OUTPUT_REPO   - the repo to commit the summary to, e.g. "dwillis/weekly-summaries"
-                  (leave unset to just write the file locally)
+  OUTPUT_REPO   - the repo to commit the summary to (leave unset to just write the file locally)
 """
 
 import os
